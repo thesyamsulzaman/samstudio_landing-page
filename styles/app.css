@@ -1,0 +1,287 @@
+* {
+  /*border: 1px solid salmon;*/
+}
+
+.debug-label {
+  position: fixed;
+  padding: 1em;
+  color: #fff;
+  background-color: #111;
+  top: 0;
+  left: 0;
+}
+
+a {
+}
+
+textarea {
+  padding: 0;
+  margin: 0;
+}
+.btn-secondary {
+  background: #111;
+}
+.form-control {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+textarea {
+  border: 1px solid black;
+}
+.navbar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: none;
+}
+
+.display-5 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.check-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* HERO */
+.hero {
+  height: auto;
+  padding: 150px 0;
+  position: relative;
+}
+.hero__header {
+  position: relative;
+  color: #111;
+}
+.hero__header > * {
+  margin: 0.4em 0;
+  color: #111;
+}
+
+/* ABOUT */
+.about {
+  height: auto;
+  padding: 2em 0;
+}
+
+.about__banner {
+  height: 300px;
+  width: 100%;
+  color: #111;
+  padding: 1.4em 0;
+}
+.about__banner__header {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.about__banner__body {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.about__banner__button {
+  background-color: #111;
+}
+
+.about__img {
+  background-image: url("../images/selective-focus-photography-of-dslr-camera-parts-821749.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+/* SERVICES */
+.services {
+  height: auto;
+  padding: 4em 0;
+  display: flex;
+  align-items: center;
+}
+
+.services__desc__img {
+  background-image: url("../images/black-dslr-camera-mounted-on-black-tripod-212372.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.services__desc__header {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.services__desc__body {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.service__card {
+  max-width: 600px;
+  margin-top: 1em;
+}
+.service__card__icon {
+  height: auto;
+  width: 100px;
+}
+.service__card__info {
+  max-width: 400px;
+  padding: 1em;
+}
+.service__card__info__header {
+  font-weight: 500;
+}
+.service__card__info__desc {
+  font-weight: 100;
+}
+.service__card__info__link {
+  color: #111;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid black;
+}
+/* GALERY */
+
+.galery__header {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.galery__image {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* FEATURES */
+.features {
+  height: auto;
+  padding: 2em 0;
+}
+
+.features__banner {
+  height: 300px;
+  width: 100%;
+  color: #111;
+  padding: 1.4em 0;
+}
+.features__banner__header {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 1em;
+}
+.features__banner__body {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.features__banner__button {
+  background-color: #111;
+}
+
+.features__img {
+  background-image: url("../images/groom-kissing-the-bride-3625032.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+.features__ul {
+  margin-left: 2em;
+}
+.features__ul__li {
+  padding: 0.4em 0;
+  font-size: 1.2rem;
+}
+
+/* TESTIMONIAL */
+.testimonials {
+  height: auto;
+  padding: 2em 0 0 0;
+  position: relative;
+}
+.testimonials__header {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.testimonials__container {
+  max-width: 350px;
+  position: relative;
+}
+.testimonials__text {
+  font-size: 1.2rem;
+  font-family: serif;
+  text-align: left;
+}
+.testimonials__account {
+  height: 50px;
+}
+.testimonials__account__profileimg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: purple;
+}
+.testimonials__account__userinfo {
+  margin-left: 0.71em;
+}
+.testimonials__account__userinfo__name {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.testimonials__account__userinfo__companyname {
+  padding: 0;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+/* CONTACT */
+.contact {
+  padding: 2em 0;
+}
+.contact__desc {
+  padding: 2em 0.5em;
+}
+.contact__desc p {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.contact__form {
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #212221;
+  color: #fff;
+  padding: 1em 0;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+  }
+  .about__banner {
+    order: 1;
+  }
+  .features__banner {
+    order: 1;
+  }
+}
